@@ -9,18 +9,58 @@ import {
   EntypoMailWithCircle,
 } from 'react-entypo-icons'
 
-const IndexWrapper = styled.div`
+import Separator from '../components/Separator'
+
+const IconWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   overflow: hidden;
   position: relative;
+  margin-bottom: 30px;
+  margin-top: 50px;
+`
+
+const MissionText = styled.p`
+  margin: 4rem 0 3rem 0;
+  font-size: 48px;
+  font-style: italic;
+  color: #777777;
+  &::before: '"';
+`
+
+const InfoText = styled.p`
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 32px;
+  color: #333333;
+  a {
+    color: #333333;
+    text-decoration: none;
+    font-style: none;
+    border-bottom: 2px solid #e26741;
+    &:hover {
+      border-bottom: 3px solid #739381;
+    }
+  }
 `
 
 const IndexPage = ({ data }) => (
   <div>
-    <p>This is my mission statement.</p>
-    <IndexWrapper>
+    <MissionText>This is my mission statement.</MissionText>
+    <Separator />
+    <InfoText>
+      Learn more <Link to="/about">about me.</Link>
+    </InfoText>
+    <InfoText>
+      Look at <Link to="/projects">projects I've worked on.</Link>
+    </InfoText>
+    <InfoText>
+      Read <Link to="/blog">things I've written.</Link>
+    </InfoText>
+    <Separator />
+    <InfoText>Email me, or find me on Github and LinkedIn:</InfoText>
+    <IconWrapper>
       <a href="https://github.com/reroche/">
         <EntypoGithubWithCircle
           style={{
@@ -48,7 +88,7 @@ const IndexPage = ({ data }) => (
           }}
         />
       </a>
-    </IndexWrapper>
+    </IconWrapper>
   </div>
 )
 

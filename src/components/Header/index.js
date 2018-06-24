@@ -164,7 +164,6 @@ class Header extends Component {
           <InfoContainer>Data Scientist.</InfoContainer>
           <InfoContainer>Developer.</InfoContainer>
           <InfoContainer>Student.</InfoContainer>
-          {/* TODO: github and linkedin icons */}
         </HeaderContainer>
       </HeaderWrapper>
     )
