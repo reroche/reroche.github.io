@@ -40,6 +40,11 @@ class About extends Component {
           Status: <Status>AVAILABLE</Status> <br />
           (This means that you can hire me)
         </MyP>
+        <MyP>
+          I'm currently and undergraduate student at{' '}
+          <a href="http://cmu.edu">Carnegie Mellon University</a>, pursuing my
+          Bachelor of Science degree in Statistics and Machine Learning. As a
+        </MyP>
         <MyH2>Work Experience</MyH2>
         <MyP>
           raw denim hoodie art party farm-to-table YOLO Cosby sweater four loko
