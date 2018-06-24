@@ -19,21 +19,24 @@ const IconWrapper = styled.div`
   position: relative;
   margin-bottom: 30px;
   margin-top: 50px;
+  padding: 0px 80px;
 `
 
 const MissionText = styled.p`
-  margin: 4rem 0 3rem 0;
+  margin: 2.5rem 0 2.5rem 0;
   font-size: 48px;
   font-style: italic;
+  line-height: 1.6;
   color: #777777;
   &::before: '"';
 `
 
 const InfoText = styled.p`
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 32px;
   color: #333333;
+  line-height: 1.6;
   a {
     color: #333333;
     text-decoration: none;
@@ -59,14 +62,14 @@ const IndexPage = ({ data }) => (
       Read <Link to="/blog">things I've written.</Link>
     </InfoText>
     <Separator />
-    <InfoText>Email me, or find me on Github and LinkedIn:</InfoText>
+    <InfoText>Send me an email, or find me on GitHub and LinkedIn:</InfoText>
     <IconWrapper>
       <a href="https://github.com/reroche/">
         <EntypoGithubWithCircle
           style={{
             fill: '#497FA4',
-            width: '6em',
-            height: '6em',
+            width: '4em',
+            height: '4em',
           }}
         />
       </a>
@@ -74,8 +77,8 @@ const IndexPage = ({ data }) => (
         <EntypoLinkedinWithCircle
           style={{
             fill: '#497FA4',
-            width: '6em',
-            height: '6em',
+            width: '4em',
+            height: '4em',
           }}
         />
       </a>
@@ -83,8 +86,8 @@ const IndexPage = ({ data }) => (
         <EntypoMailWithCircle
           style={{
             fill: '#497FA4',
-            width: '6em',
-            height: '6em',
+            width: '4em',
+            height: '4em',
           }}
         />
       </a>

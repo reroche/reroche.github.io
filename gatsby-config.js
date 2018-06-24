@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'RE Roche',
+    title: 'Ricardo Elias Roche',
     desc: 'My personal website!',
   },
   plugins: [

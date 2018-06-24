@@ -14,6 +14,7 @@ const Wrapper = styled.div`
   max-width: 960px;
   padding: 0px 20px;
   font-family: 'Lato', sans-serif;
+  font-size: 24px;
 `
 
 const Layout = ({ children, data, location }) => (
