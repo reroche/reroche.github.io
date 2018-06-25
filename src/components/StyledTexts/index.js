@@ -34,7 +34,7 @@ const MyP = styled.p`
     color: #333333;
     border-bottom: 2px solid #e26741;
     &:hover {
-      border-bottom: 2px solid #739381;
+      border-bottom: 3px solid #739381;
     }
   }
 `

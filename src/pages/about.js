@@ -35,7 +35,9 @@ class About extends Component {
         />
         {/* <ImgCaption>This is a picture of me looking serious.</ImgCaption> */}
         <MyH1>About</MyH1>
-        <MyH4>You want to learn more about me. Cool. I'll keep it short.</MyH4>
+        <MyH4>
+          So you want to learn more about me. Cool. I'll keep it short.
+        </MyH4>
         <MyP>
           Status: <Status>AVAILABLE</Status> <br />
           (This means that you can hire me)
@@ -43,8 +45,12 @@ class About extends Component {
         <MyP>
           I'm currently and undergraduate student at{' '}
           <a href="http://cmu.edu">Carnegie Mellon University</a>, pursuing my
-          Bachelor of Science degree in Statistics and Machine Learning. As a
+          Bachelor of Science degree in Statistics and Machine Learning. I'm a
+          developing data scientist, with an affinity for beautiful
+          visualizations and impactful applications. I strive to use data to
+          improve the way people work, learn, and live.
         </MyP>
+        <MyP>My philosophy is one of continuo</MyP>
         <MyH2>Work Experience</MyH2>
         <MyP>
           raw denim hoodie art party farm-to-table YOLO Cosby sweater four loko

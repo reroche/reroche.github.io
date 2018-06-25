@@ -162,8 +162,8 @@ class Header extends Component {
             sizes={data.background.sizes}
           />
           <InfoContainer>Data Scientist.</InfoContainer>
-          <InfoContainer>Developer.</InfoContainer>
-          <InfoContainer>Student.</InfoContainer>
+          <InfoContainer>Productivity Enthusiast.</InfoContainer>
+          <InfoContainer>Bricoleur.</InfoContainer>
         </HeaderContainer>
       </HeaderWrapper>
     )
