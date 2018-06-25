@@ -1,9 +1,18 @@
 import React, { Component } from 'react'
 import Img from 'gatsby-image'
+import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import Separator from '../components/Separator'
-import { MyH1, MyH2, MyP, MyH4 } from '../components/StyledTexts'
+import {
+  MyH1,
+  MyH2,
+  MyH3,
+  MyH4,
+  MyH5,
+  MyP,
+  MyUl,
+} from '../components/StyledTexts'
 
 const ImgCaption = styled.h5`
   margin: 20px 0;
@@ -48,45 +57,108 @@ class About extends Component {
           Bachelor of Science degree in Statistics and Machine Learning. I'm a
           developing data scientist, with an affinity for beautiful
           visualizations and impactful applications. I strive to use data to
-          improve the way people work, learn, and live.
+          improve the way people work, learn, and live. My goal, as an aspiring
+          data scientist, is to become a Tim Ferris/Nate Silver crossover.
         </MyP>
-        <MyP>My philosophy is one of continuo</MyP>
-        <MyH2>Work Experience</MyH2>
         <MyP>
-          raw denim hoodie art party farm-to-table YOLO Cosby sweater four loko
-          flannel keffiyeh bicycle rights beard semiotics before they sold out
-          banjo scenester 3 wolf moon Brooklyn occupy meggings chillwave small
-          batch Blue Bottle mumblecore Odd Future organic skateboard vegan
-          brunch Schlitz literally irony XOXO Kickstarter Portland next level
-          lo-fi paleo tousled pickled jean shorts fingerstache wolf aesthetic
-          fanny pack Carles 90's leggings narwhal selfies Williamsburg trust
-          fund mustache crucifix selvage kogi Etsy polaroid salvia normcore
-          asymmetrical bitters whatever direct trade mlkshk viral PBR vinyl
-          tattooed street art meh cardigan keytar cray wayfarers fixie PBR&B
-          cornhole Pitchfork put a bird on it Neutra yr quinoa gluten-free food
-          locavore swag 8-bit dreamcatcher master cleanse messenger bag plaid
-          fashion axe Marfa mixtape seitan
+          My philosophy is one of continuous improvement; not only keeping up
+          with the latest technology and tools in Data Science, but also
+          developing habits for improving my productivity and finding work-life
+          balance.
+        </MyP>
+        <MyP>
+          I'm always looking for new projects to work on and challenges to take
+          on. Don't hesitate to <Link to="/">contact me</Link> if you're
+          interested in working with me or just want to say hi!
         </MyP>
         <Separator />
-        <MyH2>Education</MyH2>
-        <MyP>
-          gluten-free heirloom bicycle rights tousled wolf sustainable selfies
-          shabby chic Tumblr American Apparel 90's DIY Brooklyn ethical small
-          batch butcher chia kogi Thundercats iPhone disrupt selvage meh
-          whatever pour-over narwhal fanny pack artisan authentic blog Echo Park
-          mlkshk skateboard fashion axe actually twee PBR&B mumblecore yr raw
-          denim next level beard semiotics Cosby sweater Godard Pinterest umami
-          dreamcatcher 3 wolf moon forage Portland literally kitsch swag put a
-          bird on it master cleanse gastropub pickled cray Shoreditch Helvetica
-          four loko sriracha paleo hoodie single-origin coffee post-ironic deep
-          v scenester direct trade PBR ennui brunch letterpress readymade trust
-          fund chillwave vinyl Neutra mixtape banjo keffiyeh McSweeney's photo
-          messenger bag irony fingerstache YOLO Tonx organic freegan street art
-          cardigan fap pop-up stumptown aesthetic vegan cliche gentrify squid
-          Vice distillery kale chips hella mustache bitters Intelligentsia Blue
-          Bottle Marfa quinoa slow-carb cornhole wayfarers craft beer High Life
-          flexitarian
-        </MyP>
+        <MyH1>Work Experience</MyH1>
+        <MyH3>APS Technology</MyH3>
+        <MyH5>
+          <em>Data Science intern in Quality Assurance</em> | Wallingford, CT |
+          Summer 2017
+        </MyH5>
+        <MyUl>
+          <li>
+            Developed two database applications, using JavaScript, PHP, and the
+            Quickbase API:
+            <MyUl>
+              <li>
+                Application for automating the process of logging customer
+                satisfaction issues, notifying relevant sales representatives
+                and departments, and following up on and resolving the issues.
+              </li>
+              <li>
+                Application for automating the process of tracking hardware and
+                software failures in company machinery, assigning investigations
+                to relevant departments, mechanics, and/or developers, and
+                implementing the fixes.
+              </li>
+            </MyUl>
+          </li>
+          <li>
+            Used Python to extract, clean, and analyze production data to create
+            visualizations with valuable insight for the production process.
+          </li>
+        </MyUl>
+        <MyH3>
+          Carengie Mellon University - Department of Statistics and Data Science
+        </MyH3>
+        <MyH5>
+          <em>Astro-Statistics Research Trainee</em> | Fall 2016
+        </MyH5>
+        <MyUl>
+          <li>
+            Analyzed data from the Catalina Sky Survey using tools in Python and
+            R to find features of the data to distinguish different types of
+            stars and transient objects.
+          </li>
+          <li>
+            Used machine-learning models (random forests, support vector
+            machines, k-nearest neighbors) to classify stars based on type.
+          </li>
+          <li>
+            Designed a poster to illustrate analysis and findings, to be
+            presented at the Undergraduate Research Symposium 2017.
+          </li>
+        </MyUl>
+        <MyH3>Intelectum CA</MyH3>
+        <MyH5>
+          <em>Database Administration Intern</em> | Caracas, Venezuela | Summer
+          2016
+        </MyH5>
+        <MyUl>
+          <li>
+            Designed a central database (using SQL, PHP and JavaScript)
+            combining customer relationship management (CRM) data, used daily
+            for targeted sales to other businesses and aiding in customer
+            retention.
+          </li>
+          <li>Maintained and backed up database on server.</li>
+          <li>
+            Developed user interface for working with employee performance data,
+            whereby managers would rate the performance of their subordinate
+            staff in a specific project.
+          </li>
+        </MyUl>
+        <MyH3>UseClark</MyH3>
+        <MyH5>
+          <em>Certified Trainer</em> | Since May 2016
+        </MyH5>
+        <MyUl>
+          <li>
+            Led performance training workshops (on productivity, speed reading,
+            memory training) for employees of corporate clients, involving
+            groups of 10 to 15 people.
+          </li>
+          <li>
+            Promoted the UseClark methodology at several education conferences
+            and summits (audiences of 300+ people).
+          </li>
+        </MyUl>
+        <Separator />
+        <MyH1>Education</MyH1>
+        <MyP>I graduated in 2015 from The British School Caracas, in Venezuela. I was part of the school’s first ever graduating class.</MyP>
       </div>
     )
   }

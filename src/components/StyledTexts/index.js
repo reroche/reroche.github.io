@@ -25,6 +25,15 @@ const MyH4 = styled.h1`
   font-weight: normal;
 `
 
+const MyH5 = styled.h1`
+  font-size: 24px;
+  color: #497fa4;
+  font-weight: normal;
+  em {
+    font-style: italic;
+  }
+`
+
 const MyP = styled.p`
   font-size: 24px;
   font-weight: normal;
@@ -39,4 +48,8 @@ const MyP = styled.p`
   }
 `
 
-export { MyH1, MyH2, MyH3, MyH4, MyP }
+const MyUl = styled.ul`
+  line-height: 1.6;
+`
+
+export { MyH1, MyH2, MyH3, MyH4, MyH5, MyP, MyUl }
