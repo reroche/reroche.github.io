@@ -73,6 +73,24 @@ class About extends Component {
           <a>download a PDF version of my resumé.</a>
         </MyP>
         <Separator />
+        <MyH1>Technical Skills</MyH1>
+        <MyH3>Programming Languages and Frameworks</MyH3>
+        <MyUl>
+          <li>
+            <b>Python:</b>
+            <MyUl>
+              <li>
+                Extensive use of Numpy and Matplotlib for data analysis and
+                visualization.
+              </li>
+              <li>
+                Experience using Tensorflow and Keras for building machine
+                learning models.
+              </li>
+            </MyUl>
+          </li>
+        </MyUl>
+        <Separator />
         <MyH1>Work Experience</MyH1>
         <MyH3>APS Technology</MyH3>
         <MyH5>

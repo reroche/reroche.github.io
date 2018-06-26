@@ -2,15 +2,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import styled from 'styled-components'
 
 import Separator from '../components/Separator'
 import {
   MyH1,
   MyH2,
-  MyH3,
-  MyH4,
-  MyH5,
+  // MyH3,
+  // MyH4,
+  // MyH5,
   MyP,
   MyUl,
 } from '../components/StyledTexts'
@@ -24,7 +23,7 @@ const Projects = () => (
       information, feel free to <Link to="/contact">contact me</Link>.
     </MyP>
     <Separator />
-    <MyH3>Things I'm working on</MyH3>
+    <MyH2>Things I'm working on</MyH2>
     <MyUl>
       <li>
         Coursera and Andrew Ng's{' '}
@@ -36,7 +35,34 @@ const Projects = () => (
       </li>
     </MyUl>
     <Separator />
-    <MyH3>Things I've done</MyH3>
+    <MyH2>Things I've done</MyH2>
+    <MyUl>
+      <li>
+        <a href="#">
+          Convolutional Neural Network for digit recognition using the MNIST
+          dataset
+        </a>
+      </li>
+      <li>
+        Poster for <i>Meeting of the Minds 2017</i>, Carnegie Mellon
+        University's Undergraduate Research Symposium.{' '}
+        <a>
+          Identifying Contact Binaries in the Catalina Real-Time Transient
+          Survey
+        </a>.
+      </li>
+      <li>
+        My 'native' version of <a>Todoist for Linux</a>.
+      </li>
+      <li>
+        <a>StackDump</a>, a React Native productivity app that I developed for a
+        course at Carnegie Mellon University.
+      </li>
+      <li>
+        My final project for <i>36-315 Graphics and Visualization</i> at CMU.
+        The <i>R Shiny</i> web app can be found <a>here</a>.
+      </li>
+    </MyUl>
   </div>
 )
 
