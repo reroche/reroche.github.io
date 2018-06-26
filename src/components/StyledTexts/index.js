@@ -41,15 +41,25 @@ const MyP = styled.p`
   a {
     text-decoration: none;
     color: #333333;
-    border-bottom: 2px solid #e26741;
+    border-bottom: 2px solid #739381;
     &:hover {
-      border-bottom: 3px solid #739381;
+      border-bottom: 3px solid #e26741;
     }
   }
 `
 
 const MyUl = styled.ul`
   line-height: 1.6;
+  li {
+    a {
+      text-decoration: none;
+      color: #333333;
+      border-bottom: 2px solid #739381;
+      &:hover {
+        border-bottom: 3px solid #e26741;
+      }
+    }
+  }
 `
 
 export { MyH1, MyH2, MyH3, MyH4, MyH5, MyP, MyUl }

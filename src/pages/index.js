@@ -41,9 +41,9 @@ const InfoText = styled.p`
     color: #333333;
     text-decoration: none;
     font-style: none;
-    border-bottom: 2px solid #e26741;
+    border-bottom: 2px solid #739381;
     &:hover {
-      border-bottom: 3px solid #739381;
+      border-bottom: 3px solid #e26741;
     }
   }
 `
