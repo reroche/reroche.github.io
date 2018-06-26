@@ -69,7 +69,8 @@ class About extends Component {
         <MyP>
           I'm always looking for new projects to work on and challenges to take
           on. Don't hesitate to <Link to="/">contact me</Link> if you're
-          interested in working with me or just want to say hi!
+          interested in working with me or just want to say hi! You can also{' '}
+          <a>download a PDF version of my resumé.</a>
         </MyP>
         <Separator />
         <MyH1>Work Experience</MyH1>
@@ -158,7 +159,54 @@ class About extends Component {
         </MyUl>
         <Separator />
         <MyH1>Education</MyH1>
-        <MyP>I graduated in 2015 from The British School Caracas, in Venezuela. I was part of the school’s first ever graduating class.</MyP>
+        <MyH3>Carnegie Mellon University</MyH3>
+        <MyP>
+          <font color="#497Fa4">
+            Bachelor of Science in Statistics and Machine Learning (Pursuing)
+          </font>
+          <br />
+          <b>Expected Graduation:</b> May 2019
+          <br />
+          <b>GPA:</b> 3.22
+        </MyP>
+        <MyP>Here are some relevant courses I've taken:</MyP>
+        <ul>
+          <li>
+            <b>10-601:</b> Introduction to Machine Learning
+          </li>
+          <li>
+            <b>15-122:</b> Principles of Imperative Computation
+          </li>
+          <li>
+            <b>15-351:</b> Algorithms and Advanced Data Structure
+          </li>
+          <li>
+            <b>21-240:</b> Matrix Algebra
+          </li>
+          <li>
+            <b>21-256:</b> Multivariate Analysis
+          </li>
+          <li>
+            <b>36-315:</b> Graphics and Visualization
+          </li>
+          <li>
+            <b>36-350:</b> Statistical Computing
+          </li>
+          <li>
+            <b>36-401:</b> Modern Regression
+          </li>
+          <li>
+            <b>36-402:</b> Advanced Methods for Data Analysis
+          </li>
+        </ul>
+        <MyH3>The British School Caracas</MyH3>
+        <MyP>
+          In 2015, I graduated from The British School Caracas, in Venezuela. I
+          was part of the school’s first ever graduating class. In my four years
+          at this high school I was Student Council President, House Captain,
+          Head Delegate of the Model United Nations team, and participated in
+          various volunteering projects.
+        </MyP>
       </div>
     )
   }
