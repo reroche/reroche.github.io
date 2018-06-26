@@ -89,6 +89,22 @@ class About extends Component {
               </li>
             </MyUl>
           </li>
+          <li>
+            <b>R:</b>
+            <MyUl>
+              <li>
+                Proficient in the use of Tidyverse packages, especially ggplot
+                for visualizations.
+              </li>
+              <li>
+                Advanced use of RMarkdown (for creating reports and posters) and
+                R Shiny (for creating dashboards and web apps).{' '}
+              </li>
+            </MyUl>
+          </li>
+          <li>
+            <b>C/C++:</b>
+          </li>
         </MyUl>
         <Separator />
         <MyH1>Work Experience</MyH1>
@@ -191,6 +207,9 @@ class About extends Component {
         <ul>
           <li>
             <b>10-601:</b> Introduction to Machine Learning
+          </li>
+          <li>
+            <b>15-112:</b> Fundamentals of Computer Science
           </li>
           <li>
             <b>15-122:</b> Principles of Imperative Computation
