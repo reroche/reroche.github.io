@@ -56,6 +56,9 @@ const IndexPage = ({ data }) => (
       Learn more <Link to="/about">about me.</Link>
     </InfoText>
     <InfoText>
+      Check out <Link to="/resume">my resumé.</Link>
+    </InfoText>
+    <InfoText>
       Look at <Link to="/projects">projects I've worked on.</Link>
     </InfoText>
     <InfoText>
@@ -92,6 +95,7 @@ const IndexPage = ({ data }) => (
         />
       </a>
     </IconWrapper>
+    <Separator />
   </div>
 )
 

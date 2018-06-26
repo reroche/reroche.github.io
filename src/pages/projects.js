@@ -63,6 +63,7 @@ const Projects = () => (
         The <i>R Shiny</i> web app can be found <a>here</a>.
       </li>
     </MyUl>
+    <Separator />
   </div>
 )
 
