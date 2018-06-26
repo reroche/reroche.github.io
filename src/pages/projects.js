@@ -38,7 +38,7 @@ const Projects = () => (
     <MyH2>Things I've done</MyH2>
     <MyUl>
       <li>
-        <a href="#">
+        <a href="../docs/mnist_cnn.html">
           Convolutional Neural Network for digit recognition using the MNIST
           dataset
         </a>
@@ -46,17 +46,21 @@ const Projects = () => (
       <li>
         Poster for <i>Meeting of the Minds 2017</i>, Carnegie Mellon
         University's Undergraduate Research Symposium.{' '}
-        <a>
+        <a href="../docs/motm_poster.pdf">
           Identifying Contact Binaries in the Catalina Real-Time Transient
           Survey
         </a>.
       </li>
       <li>
-        My 'native' version of <a>Todoist for Linux</a>.
+        My 'native' version of{' '}
+        <a href="http://github.com/reroche/todoist-dark-linux">
+          Todoist for Linux
+        </a>.
       </li>
       <li>
-        <a>StackDump</a>, a React Native productivity app that I developed for a
-        course at Carnegie Mellon University.
+        <a href="http://github.com/reroche/stack_dump">StackDump</a>, a React
+        Native productivity app that I developed for a course at Carnegie Mellon
+        University.
       </li>
       <li>
         My final project for <i>36-315 Graphics and Visualization</i> at CMU.
