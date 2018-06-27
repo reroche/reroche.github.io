@@ -23,9 +23,9 @@ const HeaderContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  @media screen and (max-width: 660px) {
-    height: 50vh;
-  }
+  /* @media screen and (max-width: 660px) and (max-height: 800px) {
+    height: 70vh;
+  } */
 `
 
 const MainNav = styled.nav`
@@ -62,7 +62,7 @@ const MainNav = styled.nav`
   }
   @media screen and (max-width: 660px) {
     img {
-      height: 35px;
+      height: 50px;
     }
     ul {
       li {
@@ -83,7 +83,8 @@ const InfoContainer = styled.div`
   font-family: 'Lato', sans-serif;
   font-size: 64px;
   @media screen and (max-width: 660px) {
-    font-size: 36px;
+    font-size: 24px;
+    padding: 15px 3px;
   }
 `
 
