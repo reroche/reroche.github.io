@@ -4,7 +4,7 @@ const MyH1 = styled.h1`
   font-size: 48px;
   color: #555555;
   font-weight: normal;
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     font-size: 36px;
   }
 `
@@ -13,7 +13,7 @@ const MyH2 = styled.h1`
   font-size: 36px;
   color: #555555;
   font-weight: normal;
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     font-size: 28px;
   }
 `
@@ -22,7 +22,7 @@ const MyH3 = styled.h1`
   font-size: 32px;
   color: #555555;
   font-weight: normal;
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     font-size: 24px;
   }
 `
@@ -31,7 +31,7 @@ const MyH4 = styled.h1`
   font-size: 28px;
   color: #555555;
   font-weight: normal;
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     font-size: 20px;
   }
 `
@@ -43,7 +43,7 @@ const MyH5 = styled.h1`
   em {
     font-style: italic;
   }
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     font-size: 16px;
   }
 `
@@ -60,7 +60,7 @@ const MyP = styled.p`
       border-bottom: 3px solid #e26741;
     }
   }
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     font-size: 16px;
   }
 `

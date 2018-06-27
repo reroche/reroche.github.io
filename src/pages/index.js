@@ -20,7 +20,7 @@ const IconWrapper = styled.div`
   margin-bottom: 30px;
   margin-top: 50px;
   padding: 0px 80px;
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     padding: 0px 10px;
   }
 `
@@ -32,7 +32,7 @@ const MissionText = styled.p`
   line-height: 1.6;
   color: #777777;
   /* &::before: '"'; */
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     font-size: 32px;
   }
 `
@@ -52,7 +52,7 @@ const InfoText = styled.p`
       border-bottom: 3px solid #e26741;
     }
   }
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     font-size: 18px;
   }
 `

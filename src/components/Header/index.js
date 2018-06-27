@@ -60,7 +60,7 @@ const MainNav = styled.nav`
       }
     }
   }
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     img {
       height: 50px;
     }
@@ -83,7 +83,7 @@ const InfoContainer = styled.div`
   padding: 25px 5px;
   font-family: 'Lato', sans-serif;
   font-size: 64px;
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 1200px) {
     font-size: 24px;
     padding: 15px 3px;
     margin: 5px 0px;
