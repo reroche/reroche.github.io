@@ -38,7 +38,7 @@ const Projects = () => (
     <MyH2>Things I've done</MyH2>
     <MyUl>
       <li>
-        <a href="../docs/mnist_cnn.html">
+        <a href="/docs/mnist_cnn.html">
           Convolutional Neural Network for digit recognition using the MNIST
           dataset
         </a>
@@ -46,7 +46,7 @@ const Projects = () => (
       <li>
         Poster for <i>Meeting of the Minds 2017</i>, Carnegie Mellon
         University's Undergraduate Research Symposium.{' '}
-        <a href="../docs/motm_poster.pdf">
+        <a href="/docs/motm_poster.pdf">
           Identifying Contact Binaries in the Catalina Real-Time Transient
           Survey
         </a>.
