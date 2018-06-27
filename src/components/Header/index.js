@@ -67,6 +67,7 @@ const MainNav = styled.nav`
     ul {
       li {
         font-size: 14px;
+        margin: 10px 5px;
         }
       }
     }

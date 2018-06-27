@@ -23,7 +23,7 @@ const MyH3 = styled.h1`
   color: #555555;
   font-weight: normal;
   @media screen and (max-width: 660px) {
-    font-size: 22px;
+    font-size: 24px;
   }
 `
 
@@ -32,7 +32,7 @@ const MyH4 = styled.h1`
   color: #555555;
   font-weight: normal;
   @media screen and (max-width: 660px) {
-    font-size: 16px;
+    font-size: 20px;
   }
 `
 
@@ -44,7 +44,7 @@ const MyH5 = styled.h1`
     font-style: italic;
   }
   @media screen and (max-width: 660px) {
-    font-size: 13px;
+    font-size: 16px;
   }
 `
 
@@ -61,7 +61,7 @@ const MyP = styled.p`
     }
   }
   @media screen and (max-width: 660px) {
-    font-size: 13px;
+    font-size: 16px;
   }
 `
 
