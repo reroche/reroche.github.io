@@ -23,9 +23,6 @@ const HeaderContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* @media screen and (max-width: 660px) and (max-height: 800px) {
-    height: 70vh;
-  } */
 `
 
 const MainNav = styled.nav`
@@ -85,7 +82,12 @@ const InfoContainer = styled.div`
   font-size: 64px;
   @media screen and (max-width: 1200px) {
     font-size: 24px;
-    padding: 15px 3px;
+    padding: 5px 3px;
+    margin: 5px 0px;
+  }
+  @media screen and (max-width: 1200px) and (max-height: 800px) {
+    font-size: 18px;
+    padding: 3px 2px;
     margin: 5px 0px;
   }
 `
