@@ -17,7 +17,7 @@ const HeaderWrapper = styled.div`
   position: relative;
 `
 const HeaderContainer = styled.div`
-  height: ${({ isHome }) => (isHome ? '60vh' : '35vh')};
+  height: ${({ isHome }) => (isHome ? '60vh' : '40vh')};
   background-color: #497fa4;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@ const MainNav = styled.nav`
       }
     }
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1000px) {
     img {
       height: 50px;
     }
@@ -80,15 +80,15 @@ const InfoContainer = styled.div`
   padding: 25px 5px;
   font-family: 'Lato', sans-serif;
   font-size: 64px;
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1000px) {
     font-size: 24px;
     padding: 5px 3px;
     margin: 5px 0px;
   }
-  @media screen and (max-width: 1200px) and (max-height: 800px) {
-    font-size: 18px;
-    padding: 3px 2px;
-    margin: 5px 0px;
+  @media screen and (max-width: 1000px) and (max-height: 800px) {
+    font-size: 24px;
+    padding: 2px 2px;
+    margin: 3px 0px;
   }
 `
 
@@ -97,7 +97,7 @@ class Header extends Component {
     const { location } = this.props
     if (location.pathname !== prevProps.location.pathname) {
       if (location.pathname === '/') {
-        this.container.animate([{ height: '35vh' }, { height: '60vh' }], {
+        this.container.animate([{ height: '40vh' }, { height: '60vh' }], {
           duration: 400,
           fill: 'forwards',
           easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
@@ -109,7 +109,7 @@ class Header extends Component {
       ) {
         // do nothing
       } else {
-        this.container.animate([{ height: '60vh' }, { height: '35vh' }], {
+        this.container.animate([{ height: '60vh' }, { height: '40vh' }], {
           duration: 400,
           fill: 'forwards',
           easing: 'cubic-bezier(0.86, 0, 0.07, 1)',

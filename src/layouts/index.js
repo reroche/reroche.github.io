@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   padding: 0px 20px;
   font-family: 'Lato', sans-serif;
   font-size: 24px;
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1000px) {
     font-size: 16px;
   }
 `
