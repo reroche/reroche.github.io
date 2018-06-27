@@ -1,28 +1,39 @@
-import React from 'react'
 import styled from 'styled-components'
 
 const MyH1 = styled.h1`
   font-size: 48px;
   color: #555555;
   font-weight: normal;
+  @media screen and (max-width: 660px) {
+    font-size: 36px;
+  }
 `
 
 const MyH2 = styled.h1`
   font-size: 36px;
   color: #555555;
   font-weight: normal;
+  @media screen and (max-width: 660px) {
+    font-size: 28px;
+  }
 `
 
 const MyH3 = styled.h1`
   font-size: 32px;
   color: #555555;
   font-weight: normal;
+  @media screen and (max-width: 660px) {
+    font-size: 22px;
+  }
 `
 
 const MyH4 = styled.h1`
   font-size: 28px;
   color: #555555;
   font-weight: normal;
+  @media screen and (max-width: 660px) {
+    font-size: 16px;
+  }
 `
 
 const MyH5 = styled.h1`
@@ -31,6 +42,9 @@ const MyH5 = styled.h1`
   font-weight: normal;
   em {
     font-style: italic;
+  }
+  @media screen and (max-width: 660px) {
+    font-size: 13px;
   }
 `
 
@@ -45,6 +59,9 @@ const MyP = styled.p`
     &:hover {
       border-bottom: 3px solid #e26741;
     }
+  }
+  @media screen and (max-width: 660px) {
+    font-size: 13px;
   }
 `
 

@@ -20,6 +20,9 @@ const IconWrapper = styled.div`
   margin-bottom: 30px;
   margin-top: 50px;
   padding: 0px 80px;
+  @media screen and (max-width: 660px) {
+    padding: 0px 10px;
+  }
 `
 
 const MissionText = styled.p`
@@ -48,6 +51,9 @@ const InfoText = styled.p`
     &:hover {
       border-bottom: 3px solid #e26741;
     }
+  }
+  @media screen and (max-width: 660px) {
+    font-size: 18px;
   }
 `
 
