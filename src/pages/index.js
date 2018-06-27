@@ -58,7 +58,7 @@ const InfoText = styled.p`
 
 const IndexPage = ({ data }) => (
   <div>
-    <MissionText>Welcome to my corner of the internet.</MissionText>
+    <MissionText>My mission statement goes here.</MissionText>
     <Separator />
     <InfoText>
       Learn more <Link to="/about">about me.</Link>
