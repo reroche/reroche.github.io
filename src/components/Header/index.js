@@ -17,7 +17,7 @@ const HeaderWrapper = styled.div`
   position: relative;
 `
 const HeaderContainer = styled.div`
-  height: ${({ isHome }) => (isHome ? '60vh' : '30vh')};
+  height: ${({ isHome }) => (isHome ? '60vh' : '35vh')};
   background-color: #497fa4;
   display: flex;
   flex-direction: column;
@@ -92,7 +92,7 @@ class Header extends Component {
     const { location } = this.props
     if (location.pathname !== prevProps.location.pathname) {
       if (location.pathname === '/') {
-        this.container.animate([{ height: '30vh' }, { height: '60vh' }], {
+        this.container.animate([{ height: '35vh' }, { height: '60vh' }], {
           duration: 400,
           fill: 'forwards',
           easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
@@ -104,7 +104,7 @@ class Header extends Component {
       ) {
         // do nothing
       } else {
-        this.container.animate([{ height: '60vh' }, { height: '30vh' }], {
+        this.container.animate([{ height: '60vh' }, { height: '35vh' }], {
           duration: 400,
           fill: 'forwards',
           easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
@@ -136,7 +136,7 @@ class Header extends Component {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/resume">Resumé</Link>
+              <Link to="/resume">Resume</Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>

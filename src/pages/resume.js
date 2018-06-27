@@ -34,7 +34,7 @@ class Resume extends Component {
     return (
       <div>
         <MyP>
-          A PDF version of my resumé is available{' '}
+          A PDF version of my resume is available{' '}
           <a href="/docs/resume_web.pdf">here</a>.
         </MyP>
         <Separator />

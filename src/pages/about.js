@@ -72,7 +72,7 @@ class About extends Component {
           interested in working with me or just want to say hi!
         </MyP>
         <MyP>
-          And while you're here, check out <Link to="/resume">my resumé.</Link>
+          And while you're here, check out <Link to="/resume">my resume.</Link>
         </MyP>
         <Separator />
       </div>
