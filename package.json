@@ -32,7 +32,8 @@
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --write '*.js'",
     "format-code": "yarn run prettier && yarn run lint:fix",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "build-serve": "yarn run build && gatsby serve"
   },
   "husky": {
     "hooks": {

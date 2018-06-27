@@ -66,7 +66,7 @@ const MainNav = styled.nav`
     }
     ul {
       li {
-        font-size: 18px;
+        font-size: 14px;
         }
       }
     }

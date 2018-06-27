@@ -28,7 +28,10 @@ const MissionText = styled.p`
   font-style: italic;
   line-height: 1.6;
   color: #777777;
-  &::before: '"';
+  /* &::before: '"'; */
+  @media screen and (max-width: 660px) {
+    font-size: 32px;
+  }
 `
 
 const InfoText = styled.p`
