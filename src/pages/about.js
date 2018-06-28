@@ -57,9 +57,10 @@ class About extends Component {
           Bachelor of Science degree in Statistics and Machine Learning. I'm a
           developing data scientist, with an affinity for beautiful
           visualizations and impactful applications. I strive to use data to
-          improve the way people work, learn, and live. My goal, as an aspiring
-          data scientist, is to become a Tim Ferris/Nate Silver crossover.
+          improve the way people work, learn, and live.
         </MyP>
+        {/* My goal, as an aspiring
+          data scientist, is to become a Tim Ferris/Nate Silver crossover. */}
         <MyP>
           My philosophy is one of continuous improvement; not only keeping up
           with the latest technology and tools in data science, but also
@@ -73,6 +74,20 @@ class About extends Component {
         </MyP>
         <MyP>
           And while you're here, check out <Link to="/resume">my resume.</Link>
+        </MyP>
+        <Separator />
+        <MyH3>Colophon</MyH3>
+        <MyP>
+          This site was made with{' '}
+          <a href="https://www.gatsbyjs.org">Gatsby.js</a> and is hosted on{' '}
+          <a href="http://www.github.com">GitHub</a>. The code for my site is
+          available <a>here</a>. I created my logo using{' '}
+          <a href="http://www.figma.com">Figma</a>. The font used throughout the
+          site is <a href="https://fonts.google.com/specimen/Lato">Lato</a>.
+        </MyP>
+        <MyP>
+          I apologize if the site loads with some issues on your device. It's a
+          work in progress.
         </MyP>
         <Separator />
       </div>
