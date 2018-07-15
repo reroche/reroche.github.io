@@ -49,7 +49,7 @@ class About extends Component {
         </MyH4>
         <MyP>
           Status: <Status>AVAILABLE</Status> <br />
-          (This means that you can hire me)
+          (That means that you can hire me)
         </MyP>
         <MyP>
           I'm currently an undergraduate student at{' '}

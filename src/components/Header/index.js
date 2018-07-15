@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import Link from 'gatsby-link'
@@ -150,7 +149,7 @@ class Header extends Component {
               <Link to="/blog">Blog</Link>
             </li>
             <li>
-              <Link to="/">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </MainNav>

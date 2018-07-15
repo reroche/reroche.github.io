@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react'
 import PropTypes from 'prop-types'
 
@@ -12,10 +11,6 @@ const IndexPage = ({ data }) => (
     ))}
   </div>
 )
-
-IndexPage.propTypes = {
-  data: PropTypes.any,
-}
 
 export default IndexPage
 

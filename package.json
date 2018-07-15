@@ -1,7 +1,7 @@
 {
   "name": "reroche",
   "description": "Ricardo Elias Roche's personal website",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Ricardo Elias Roche <rers97@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.271",
@@ -31,9 +31,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --write '*.js'",
-    "format-code": "yarn run prettier && yarn run lint:fix",
+    "format-code": "npm run prettier && npm run lint:fix",
     "precommit": "lint-staged",
-    "build-serve": "yarn run build && gatsby serve"
+    "build-serve": "npm run build && gatsby serve"
   },
   "husky": {
     "hooks": {
