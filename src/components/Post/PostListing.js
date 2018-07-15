@@ -1,19 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
+import styled from 'styled-components';
+
+import Separator from '../Separator';
+import { MyH3, MyP } from '../StyledTexts';
+
+const DateText = styled.h5`
+  font-size: 18px;
+  margin: 0px 0px 5px 0px;
+  color: #333333;
+`
 
 const PostListing = ({ post }) => (
   <article>
-    <h3>
+    <MyH3>
       <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
-    </h3>
-    <span>{post.frontmatter.date}</span>
-    <p>{post.excerpt}</p>
+    </MyH3>
+    <DateText>{post.frontmatter.date}</DateText>
+    <MyP>{post.excerpt}</MyP>
+    <Separator />
   </article>
 );
-
-PostListing.propTypes = {
-  post: PropTypes.any,
-};
 
 export default PostListing;

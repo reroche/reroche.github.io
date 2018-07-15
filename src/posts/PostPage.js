@@ -1,18 +1,23 @@
-/* eslint-disable */
 import React, { Component } from 'react'
+import styled from 'styled-components'
+
+import Separator from '../components/Separator'
+import { MyH1, MyH4, MyP } from '../components/StyledTexts'
+
 
 export default class PostPage extends Component {
   render() {
     const { data } = this.props
     return (
       <div>
-        <span>{data.markdownRemark.frontmatter.date}</span>
-        <h1>{data.markdownRemark.frontmatter.title}</h1>
-        <div
+        <MyH4>{data.markdownRemark.frontmatter.date}</MyH4>
+        <MyH1>{data.markdownRemark.frontmatter.title}</MyH1>
+        <MyP
           dangerouslySetInnerHTML={{
             __html: data.markdownRemark.html,
           }}
         />
+        <Separator />
       </div>
     )
   }

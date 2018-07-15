@@ -2,10 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import PostListing from '../components/Post/PostListing'
+import Separator from '../components/Separator'
+import { MyH1 } from '../components/StyledTexts'
 
 const IndexPage = ({ data }) => (
   <div>
-    <h1>Posts</h1>
+    <MyH1>Posts</MyH1>
+    <Separator />
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <PostListing key={node.id} post={node} />
     ))}
