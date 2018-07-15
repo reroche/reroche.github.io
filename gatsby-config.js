@@ -3,6 +3,7 @@ module.exports = {
     title: 'Ricardo Elias Roche',
     desc: 'My personal website!',
   },
+  pathPrefix: "/",
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
