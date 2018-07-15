@@ -1,6 +1,0 @@
-{
-  "editor.formatOnSave": true,
-  "prettier.eslintIntegration": false,
-  "prettier.printWidth": 100,
-  "editor.rulers": [100]
-}
