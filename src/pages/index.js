@@ -58,8 +58,8 @@ const InfoText = styled.p`
 
 const IndexPage = ({ data }) => (
   <div>
-    <MissionText>My mission statement goes here.</MissionText>
-    <Separator />
+    {/*<MissionText>My mission statement goes here.</MissionText>
+    <Separator />*/}
     <InfoText>
       Learn more <Link to="/about">about me.</Link>
     </InfoText>
@@ -73,7 +73,8 @@ const IndexPage = ({ data }) => (
       Read <Link to="/blog">things I've written.</Link>
     </InfoText>
     <Separator />
-    <InfoText>Send me an email, or find me on GitHub and LinkedIn:</InfoText>
+    {/*<InfoText>Send me an email, or find me on GitHub and LinkedIn:</InfoText>*/}
+    <InfoText>Send me an email, or find me on GitHub:</InfoText>
     <IconWrapper>
       <a href="https://github.com/reroche/">
         <EntypoGithubWithCircle
@@ -84,7 +85,7 @@ const IndexPage = ({ data }) => (
           }}
         />
       </a>
-      <a href="https://linkedin.com/">
+      {/*<a href="https://linkedin.com/">
         <EntypoLinkedinWithCircle
           style={{
             fill: '#497FA4',
@@ -92,7 +93,7 @@ const IndexPage = ({ data }) => (
             height: '4em',
           }}
         />
-      </a>
+      </a>*/}
       <a href="mailto:rers97@gmail.com">
         <EntypoMailWithCircle
           style={{

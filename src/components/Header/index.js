@@ -148,9 +148,9 @@ class Header extends Component {
             <li>
               <Link to="/blog">Blog</Link>
             </li>
-            <li>
+            { /*<li>
               <Link to="/contact">Contact</Link>
-            </li>
+            </li> */ }
           </ul>
         </MainNav>
         <HeaderContainer
@@ -179,9 +179,4 @@ class Header extends Component {
   }
 }
 
-Header.propTypes = {
-  data: PropTypes.any,
-  location: PropTypes.string,
-}
-
-export default Header
+export default Header;
