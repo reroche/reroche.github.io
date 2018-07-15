@@ -3,12 +3,15 @@ import PropTypes from 'prop-types'
 
 import PostListing from '../components/Post/PostListing'
 import Separator from '../components/Separator'
-import { MyH1 } from '../components/StyledTexts'
+import { MyH1, MyH5 } from '../components/StyledTexts'
 
 const IndexPage = ({ data }) => (
   <div>
-    <MyH1>Posts</MyH1>
+    <MyH5>
+      NOTE: This page is currently under construction. I will be adding posts that I've written soon.
+    </MyH5>
     <Separator />
+    <MyH1>Posts</MyH1>
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <PostListing key={node.id} post={node} />
     ))}
