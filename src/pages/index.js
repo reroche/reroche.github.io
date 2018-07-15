@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
@@ -107,10 +106,6 @@ const IndexPage = ({ data }) => (
     <Separator />
   </div>
 )
-
-IndexPage.propTypes = {
-  data: PropTypes.any,
-}
 
 export default IndexPage
 

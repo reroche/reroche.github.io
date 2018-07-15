@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
@@ -36,12 +35,6 @@ const Layout = ({ children, data, location }) => (
     <Wrapper>{children()}</Wrapper>
   </div>
 )
-
-Layout.propTypes = {
-  children: PropTypes.func,
-  data: PropTypes.object,
-  location: PropTypes.string,
-}
 
 export default Layout
 
