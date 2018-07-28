@@ -38,6 +38,9 @@ const Projects = () => (
     <MyH2>Things I've done</MyH2>
     <MyUl>
       <li>
+        <a href="http://reroche.github.io/startpage/">Simple startpage</a>for my browser developed using React. Code available <a href="http://github.com/reroche/startpage/">here</a>.
+      </li>
+      <li>
         <a href="/docs/mnist_cnn.html">
           Convolutional Neural Network for digit recognition using the MNIST
           dataset
