@@ -1,11 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import {
   EntypoLinkedinWithCircle,
   EntypoGithubWithCircle,
-  EntypoMailWithCircle,
+  EntypoMailWithCircle
 } from 'react-entypo-icons'
 
 import Separator from '../components/Separator'
@@ -57,34 +57,34 @@ const InfoText = styled.p`
 
 const IndexPage = ({ data }) => (
   <div>
-    {/*<MissionText>My mission statement goes here.</MissionText>
-    <Separator />*/}
+    <MissionText>Making a career out of overanalyzing.</MissionText>
+    <Separator />
     <InfoText>
-      Learn more <Link to="/about">about me.</Link>
+      Learn more <Link to='/about'>about me.</Link>
     </InfoText>
     <InfoText>
-      Check out <Link to="/resume">my resumé.</Link>
+      Check out <Link to='/resume'>my resumé.</Link>
     </InfoText>
     <InfoText>
-      Look at <Link to="/projects">projects I've worked on.</Link>
+      Look at <Link to='/projects'>projects I've worked on.</Link>
     </InfoText>
     <InfoText>
-      Read <Link to="/blog">things I've written.</Link>
+      Read <Link to='/blog'>things I've written.</Link>
     </InfoText>
     <Separator />
-    {/*<InfoText>Send me an email, or find me on GitHub and LinkedIn:</InfoText>*/}
+    {/* <InfoText>Send me an email, or find me on GitHub and LinkedIn:</InfoText> */}
     <InfoText>Send me an email, or find me on GitHub:</InfoText>
     <IconWrapper>
-      <a href="https://github.com/reroche/">
+      <a href='https://github.com/reroche/'>
         <EntypoGithubWithCircle
           style={{
             fill: '#497FA4',
             width: '4em',
-            height: '4em',
+            height: '4em'
           }}
         />
       </a>
-      {/*<a href="https://linkedin.com/">
+      {/* <a href="https://linkedin.com/">
         <EntypoLinkedinWithCircle
           style={{
             fill: '#497FA4',
@@ -92,13 +92,13 @@ const IndexPage = ({ data }) => (
             height: '4em',
           }}
         />
-      </a>*/}
-      <a href="mailto:rers97@gmail.com">
+      </a> */}
+      <a href='mailto:rers97@gmail.com'>
         <EntypoMailWithCircle
           style={{
             fill: '#497FA4',
             width: '4em',
-            height: '4em',
+            height: '4em'
           }}
         />
       </a>

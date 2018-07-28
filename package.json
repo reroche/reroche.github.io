@@ -1,7 +1,7 @@
 {
   "name": "reroche",
   "description": "Ricardo Elias Roche's personal website",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Ricardo Elias Roche <rers97@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.271",
