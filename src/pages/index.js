@@ -75,15 +75,6 @@ const IndexPage = ({ data }) => (
     {/* <InfoText>Send me an email, or find me on GitHub and LinkedIn:</InfoText> */}
     <InfoText>Send me an email, or find me on GitHub:</InfoText>
     <IconWrapper>
-      <a href='https://github.com/reroche/'>
-        <EntypoGithubWithCircle
-          style={{
-            fill: '#497FA4',
-            width: '4em',
-            height: '4em'
-          }}
-        />
-      </a>
       {/* <a href="https://linkedin.com/">
         <EntypoLinkedinWithCircle
           style={{
@@ -95,6 +86,15 @@ const IndexPage = ({ data }) => (
       </a> */}
       <a href='mailto:rers97@gmail.com'>
         <EntypoMailWithCircle
+          style={{
+            fill: '#497FA4',
+            width: '4em',
+            height: '4em'
+          }}
+        />
+      </a>
+      <a href='https://github.com/reroche/'>
+        <EntypoGithubWithCircle
           style={{
             fill: '#497FA4',
             width: '4em',
