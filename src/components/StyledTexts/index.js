@@ -1,4 +1,6 @@
+import React, { Component } from 'react'
 import styled from 'styled-components'
+import { EntypoChevronDown, EntypoChevronRight } from 'react-entypo-icons'
 
 const MyH1 = styled.h1`
   font-size: 48px;
@@ -66,7 +68,7 @@ const MyP = styled.p`
 `
 
 const MyUl = styled.ul`
-  line-height: 1.6;
+  line-height: 1.2;
   li {
     a {
       text-decoration: none;
@@ -79,4 +81,68 @@ const MyUl = styled.ul`
   }
 `
 
-export { MyH1, MyH2, MyH3, MyH4, MyH5, MyP, MyUl }
+const SectionWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
+const LabelWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`
+
+const Label = styled.a`
+  color: #333333;
+  font-size: 32px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid #739381;
+  margin: 20px 0px;
+  padding-bottom: 4px;
+  &:hover {
+    border-bottom: 3px solid #e26741;
+  }
+  @media screen and (max-width: 1000px) {
+    font-size: 28px;
+  }
+`
+
+class CollapsibleSection extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      isOpen: false
+    }
+    this.toggle = this.toggle.bind(this)
+  }
+  toggle () {
+    this.setState(prevState => ({
+      isOpen: !prevState.isOpen
+    }))
+  }
+  render () {
+    return (
+      <SectionWrapper>
+        <LabelWrapper>
+          {this.state.isOpen ? <EntypoChevronDown /> : <EntypoChevronRight />}
+          <Label onClick={this.toggle}>{this.props.label}</Label>
+        </LabelWrapper>
+        {this.state.isOpen && this.props.content}
+      </SectionWrapper>
+    )
+  }
+}
+
+export {
+  CollapsibleSection,
+  SectionWrapper,
+  MyH1,
+  MyH2,
+  MyH3,
+  MyH4,
+  MyH5,
+  MyP,
+  MyUl
+}
