@@ -1,5 +1,4 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import {
@@ -72,18 +71,8 @@ const IndexPage = ({ data }) => (
       Read <Link to='/blog'>things I've written.</Link>
     </InfoText>
     <Separator />
-    {/* <InfoText>Send me an email, or find me on GitHub and LinkedIn:</InfoText> */}
-    <InfoText>Send me an email, or find me on GitHub:</InfoText>
+    <InfoText>Send me an email, or find me on GitHub and LinkedIn:</InfoText>
     <IconWrapper>
-      {/* <a href="https://linkedin.com/">
-        <EntypoLinkedinWithCircle
-          style={{
-            fill: '#497FA4',
-            width: '4em',
-            height: '4em',
-          }}
-        />
-      </a> */}
       <a href='mailto:rers97@gmail.com'>
         <EntypoMailWithCircle
           style={{
@@ -95,6 +84,15 @@ const IndexPage = ({ data }) => (
       </a>
       <a href='https://github.com/reroche/'>
         <EntypoGithubWithCircle
+          style={{
+            fill: '#497FA4',
+            width: '4em',
+            height: '4em'
+          }}
+        />
+      </a>
+      <a href='https://linkedin.com/in/reroche/'>
+        <EntypoLinkedinWithCircle
           style={{
             fill: '#497FA4',
             width: '4em',
