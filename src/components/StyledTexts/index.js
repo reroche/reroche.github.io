@@ -68,7 +68,7 @@ const MyP = styled.p`
 `
 
 const MyUl = styled.ul`
-  line-height: 1.2;
+  line-height: 1.4;
   li {
     a {
       text-decoration: none;
@@ -123,10 +123,20 @@ class CollapsibleSection extends Component {
     }))
   }
   render () {
+    const chevronStyle = {
+      color: '#333333',
+      width: '30px',
+      height: '30px',
+      margin: '0px'
+    }
     return (
       <SectionWrapper>
         <LabelWrapper>
-          {this.state.isOpen ? <EntypoChevronDown /> : <EntypoChevronRight />}
+          {this.state.isOpen ? (
+            <EntypoChevronDown style={chevronStyle} />
+          ) : (
+            <EntypoChevronRight style={chevronStyle} />
+          )}
           <Label onClick={this.toggle}>{this.props.label}</Label>
         </LabelWrapper>
         {this.state.isOpen && this.props.content}

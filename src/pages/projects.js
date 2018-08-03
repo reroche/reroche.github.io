@@ -11,7 +11,7 @@ import {
   // MyH4,
   // MyH5,
   MyP,
-  MyUl,
+  MyUl
 } from '../components/StyledTexts'
 
 const Projects = () => (
@@ -26,10 +26,6 @@ const Projects = () => (
     <MyH2>Things I'm working on</MyH2>
     <MyUl>
       <li>
-        Coursera and Andrew Ng's{' '}
-        <a href="http://deeplearning.ai">deeplearning.ai</a> course
-      </li>
-      <li>
         React Native application for <a href="http://edutrade.com">Edutrade</a>.
         The app will have weekly lessons and daily trading recommendations.
       </li>
@@ -38,7 +34,14 @@ const Projects = () => (
     <MyH2>Things I've done</MyH2>
     <MyUl>
       <li>
-        <a href="http://reroche.github.io/startpage/">Simple startpage</a>for my browser developed using React. Code available <a href="http://github.com/reroche/startpage/">here</a>.
+        Coursera and Andrew Ng's{' '}
+        <a href="http://deeplearning.ai">deeplearning.ai</a> specialization. My
+        certificate can be found in the resume page.
+      </li>
+      <li>
+        <a href="http://reroche.github.io/startpage/">Simple startpage</a> for my
+        browser developed using React. Code available{' '}
+        <a href="http://github.com/reroche/startpage/">here</a>.
       </li>
       <li>
         <a href="/docs/mnist_cnn.html">
@@ -75,7 +78,7 @@ const Projects = () => (
 )
 
 Projects.propTypes = {
-  data: PropTypes.any,
+  data: PropTypes.any
 }
 
 export default Projects
