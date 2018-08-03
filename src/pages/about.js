@@ -4,24 +4,8 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import Separator from '../components/Separator'
-import {
-  MyH1,
-  MyH2,
-  MyH3,
-  MyH4,
-  MyH5,
-  MyP,
-  MyUl,
-} from '../components/StyledTexts'
+import { MyH1, MyH3, MyH4, MyH5, MyP } from '../components/StyledTexts'
 
-const ImgCaption = styled.h5`
-  margin: 20px 0;
-  text-align: center;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 28px;
-  color: #777777;
-`
 const Status = styled.em`
   font-style: initial;
   font-weight: bolder;
@@ -29,7 +13,7 @@ const Status = styled.em`
 `
 
 class About extends Component {
-  render() {
+  render () {
     const { data } = this.props
     return (
       <div>
@@ -38,11 +22,10 @@ class About extends Component {
             width: '35%',
             margin: '0 auto',
             borderRadius: '50%',
-            boxShadow: '0px 0px 5px 5px rgba(0, 0, 0, 0.4)',
+            boxShadow: '0px 0px 5px 5px rgba(0, 0, 0, 0.4)'
           }}
           sizes={data.avatar.sizes}
         />
-        {/* <ImgCaption>This is a picture of me looking serious.</ImgCaption> */}
         <MyH1>About</MyH1>
         <MyH4>
           So you want to learn more about me. Cool. I'll keep it short.
@@ -53,14 +36,12 @@ class About extends Component {
         </MyP>
         <MyP>
           I'm currently an undergraduate student at{' '}
-          <a href="http://cmu.edu">Carnegie Mellon University</a>, pursuing my
+          <a href='http://cmu.edu'>Carnegie Mellon University</a>, pursuing my
           Bachelor of Science degree in Statistics and Machine Learning. I'm a
           developing data scientist, with an affinity for beautiful
           visualizations and impactful applications. I strive to use data to
           improve the way people work, learn, and live.
         </MyP>
-        {/* My goal, as an aspiring
-          data scientist, is to become a Tim Ferris/Nate Silver crossover. */}
         <MyP>
           My philosophy is one of continuous improvement; not only keeping up
           with the latest technology and tools in data science, but also
@@ -69,21 +50,22 @@ class About extends Component {
         </MyP>
         <MyP>
           I'm always looking for new projects to work on and challenges to take
-          on. Don't hesitate to <Link to="/">contact me</Link> if you're
+          on. Don't hesitate to <Link to='/'>contact me</Link> if you're
           interested in working with me or just want to say hi!
         </MyP>
         <MyP>
-          And while you're here, check out <Link to="/resume">my resume.</Link>
+          And while you're here, check out <Link to='/resume'>my resume.</Link>
         </MyP>
         <Separator />
         <MyH3>Colophon</MyH3>
+        <MyH5>Because this site uses things</MyH5>
         <MyP>
           This site was made with{' '}
-          <a href="https://www.gatsbyjs.org">Gatsby.js</a> and is hosted on{' '}
-          <a href="http://www.github.com">GitHub</a>. The code for my site is
+          <a href='https://www.gatsbyjs.org'>Gatsby.js</a> and is hosted on{' '}
+          <a href='http://www.github.com'>GitHub</a>. The code for my site is
           available <a>here</a>. I created my logo using{' '}
-          <a href="http://www.figma.com">Figma</a>. The font used throughout the
-          site is <a href="https://fonts.google.com/specimen/Lato">Lato</a>.
+          <a href='http://www.figma.com'>Figma</a>. The font used throughout the
+          site is <a href='https://fonts.google.com/specimen/Lato'>Lato</a>.
         </MyP>
         <MyP>
           I apologize if the site loads with some issues on your device. It's a
