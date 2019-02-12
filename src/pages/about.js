@@ -27,14 +27,24 @@ class About extends Component {
           sizes={data.avatar.sizes}
         />
         <MyH1>About</MyH1>
-        <MyH4>
+        {/* <MyH4>
           So you want to learn more about me. Cool. I'll keep it short.
-        </MyH4>
-        <MyP>
+        </MyH4> */}
+        <MyH4>
           Status: <Status>AVAILABLE</Status> <br />
-          (That means that you can hire me)
-        </MyP>
-        <MyP>
+          {/* (That means that you can hire me) */}
+        </MyH4>
+
+        <MyP>We often hear that data is the new oil, that data is the new currency, that data is the new bacon. I think that these claims miss the point – data is about people. My passion is turning data into insight; enabling people to interpret the numbers and helping them make the best possible decisions. </MyP>
+
+        <MyP>I am a senior majoring in Statistics and Machine Learning with training and experience across the full stack of data science skills – from constructing relational databases to developing interactive web-based dashboards. Throughout my undergraduate career, I’ve had the pleasure of working on some truly intellectually challenging problems, developing critical thinking skills and a greater awareness of the value of using data to solve problems. And the internships and job opportunities I have had over the past few summers have allowed me to polish my abilities while working on real-world applications.</MyP>
+
+        <MyP>Data Science is a growing and ever-changing field. With new technologies and frameworks constantly popping up, there is a surplus of exciting tools for data scientists to use. I am dedicated to staying at the bleeding edge of the field by learning to work with these tools. In the past year, I completed a Coursera specialization in Deep Learning and worked on personal projects using PyTorch for implementing neural network architectures. Similarly, I have attained a working knowledge of Docker and git, and experience working on Paperspace (a cloud platform with GPUs for ML pipelines). Data is only useful when the right tools are used to convert it to insight, and I am devoted to developing the skills to make this a reality.</MyP>
+
+        <MyP>I'm a Linux User, a Vim advocate, and command line aficionado.</MyP>
+
+
+        {/* <MyP>
           I'm currently an undergraduate student at{' '}
           <a href='http://cmu.edu'>Carnegie Mellon University</a>, pursuing my
           Bachelor of Science degree in Statistics and Machine Learning. I'm a
@@ -47,7 +57,7 @@ class About extends Component {
           with the latest technology and tools in data science, but also
           developing habits for improving my productivity and finding work-life
           balance.
-        </MyP>
+        </MyP */}
         <MyP>
           I'm always looking for new projects to work on and challenges to take
           on. Don't hesitate to <Link to='/'>contact me</Link> if you're

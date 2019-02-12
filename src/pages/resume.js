@@ -16,7 +16,7 @@ const TechnicalSkillsSection = (
       <li>
         Extensive experience using <b>Python</b> and <b>R</b> for data analysis,
         visualization, and working with Machine Learning frameworks such as{' '}
-        <b>TensorFlow</b> and <b>Keras</b>.
+        <b>PyTorch</b> and <b>Keras</b>.
       </li>
       <li>
         Working knowledge of <b>JavaScript</b>, especially with <b>React</b> and{' '}
@@ -164,7 +164,7 @@ const EducationSection = (
       <br />
       <b>Expected Graduation:</b> May 2019
       <br />
-      <b>GPA:</b> 3.22 / 4.0
+      <b>GPA:</b> 3.28 / 4.0
     </MyP>
     <MyP>Here are some relevant courses I've taken:</MyP>
     <ul>

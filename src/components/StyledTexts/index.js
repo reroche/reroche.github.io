@@ -51,6 +51,7 @@ const MyH5 = styled.h1`
 `
 
 const MyP = styled.p`
+  font-family: "Merriweather";
   font-size: 24px;
   font-weight: normal;
   line-height: 1.6;

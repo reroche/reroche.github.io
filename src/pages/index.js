@@ -54,10 +54,11 @@ const InfoText = styled.p`
   }
 `
 
+// <MissionText>Making a career out of overanalyzing everything.</MissionText>
+// <Separator />
+
 const IndexPage = ({ data }) => (
   <div>
-    <MissionText>Making a career out of overanalyzing everything.</MissionText>
-    <Separator />
     <InfoText>
       Learn more <Link to='/about'>about me.</Link>
     </InfoText>

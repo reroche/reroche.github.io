@@ -76,9 +76,9 @@ const InfoContainer = styled.div`
   z-index: 3;
   color: white;
   background-color: #000000;
-  padding: 25px 5px;
-  font-family: 'Lato', sans-serif;
-  font-size: 64px;
+  padding: 15px 5px;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 40px;
   @media screen and (max-width: 1000px) {
     font-size: 24px;
     padding: 5px 3px;
@@ -169,10 +169,9 @@ class Header extends Component {
             sizes={data.background.sizes}
           />
           <InfoContainer>Data Scientist.</InfoContainer>
-          <InfoContainer>Developer.</InfoContainer>
-          <InfoContainer>Student.</InfoContainer>
-          {/* <InfoContainer>Productivity Enthusiast.</InfoContainer> */}
-          {/* <InfoContainer>Bricoleur.</InfoContainer> */}
+          <InfoContainer>Aspiring Polymath.</InfoContainer>
+          <InfoContainer>Bricoleur.</InfoContainer>
+          {/* <InfoContainer>Student.</InfoContainer> */}
         </HeaderContainer>
       </HeaderWrapper>
     )
