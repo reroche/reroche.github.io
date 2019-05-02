@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-import Separator from '../components/Separator'
+import Separator from '../components/separator'
 import {
   CollapsibleSection,
   MyH3,
   MyH5,
   MyP,
   MyUl
-} from '../components/StyledTexts'
+} from '../components/styled-texts'
 
 const TechnicalSkillsSection = (
   <div>

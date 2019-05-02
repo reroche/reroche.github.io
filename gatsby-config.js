@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Ricardo Elias Roche',
-    desc: 'My personal website!',
+    desc: 'My personal website!'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -12,21 +12,21 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'img',
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
-        path: `${__dirname}/src`,
-      },
+        path: `${__dirname}/src`
+      }
     },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        excerpt_separator: '<!-- end -->',
-      },
+        excerpt_separator: `\\end`
+      }
     },
     {
       resolve: 'gatsby-plugin-favicon',
@@ -42,9 +42,9 @@ module.exports = {
           firefox: true,
           twitter: false,
           yandex: false,
-          windows: false,
-        },
-      },
-    },
-  ],
+          windows: false
+        }
+      }
+    }
+  ]
 }

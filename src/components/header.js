@@ -5,8 +5,8 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 
-import logo from '../../images/logo-with-name.png'
-import '../../layouts/fonts.css'
+import logo from '../images/logo-with-name.png'
+import '../layouts/fonts.css'
 
 const HeaderWrapper = styled.div`
   margin: 0;
@@ -100,7 +100,7 @@ class Header extends Component {
           duration: 400,
           fill: 'forwards',
           easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
-          iterations: 1,
+          iterations: 1
         })
       } else if (
         location.pathname !== '/' &&
@@ -112,45 +112,45 @@ class Header extends Component {
           duration: 400,
           fill: 'forwards',
           easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
-          iterations: 1,
+          iterations: 1
         })
       }
     }
   }
 
-  render() {
+  render () {
     const { data, location } = this.props
     return (
       <HeaderWrapper>
         <MainNav>
           <Link
-            to="/"
+            to='/'
             style={{
               color: 'white',
-              textDecoration: 'none',
+              textDecoration: 'none'
             }}
           >
-            <img src={logo} alt="Ricardo Elias Roche" />
+            <img src={logo} alt='Ricardo Elias Roche' />
           </Link>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to='/about'>About</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/resume">Resume</Link>
+            </li> */}
+            <li>
+              <Link to='/projects'>Projects</Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link to='/blog'>Blog</Link>
             </li>
-            <li>
-              <Link to="/blog">Blog</Link>
-            </li>
-            { /*<li>
+            {/* <li>
               <Link to="/contact">Contact</Link>
-            </li> */ }
+            </li> */}
           </ul>
         </MainNav>
         <HeaderContainer
@@ -164,7 +164,7 @@ class Header extends Component {
               top: 0,
               width: '100%',
               height: '100%',
-              opacity: 0.6,
+              opacity: 0.6
             }}
             sizes={data.background.sizes}
           />
@@ -178,4 +178,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Header

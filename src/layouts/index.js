@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 
-import Header from '../components/Header'
+import Header from '../components/header'
 import './index.css'
 import './fonts.css'
 
@@ -26,9 +26,9 @@ const Layout = ({ children, data, location }) => (
       meta={[
         {
           name: 'description',
-          content: 'The personal website of Ricardo Elias Roche',
+          content: 'The personal website of Ricardo Elias Roche'
         },
-        { name: 'keywords', content: 'resume, blog, data science' },
+        { name: 'keywords', content: 'resume, blog, data science' }
       ]}
     />
     <Header data={data} location={location} />

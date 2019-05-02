@@ -26,7 +26,14 @@ const MyH3 = styled.h1`
   font-weight: normal;
   @media screen and (max-width: 1000px) {
     font-size: 24px;
-  }
+    }
+  a {
+    text-decoration: none;
+    color: #777777;
+    border-bottom: 3px solid #497FA4;
+    &:hover {
+      border-bottom: 3px solid #E26741;
+    }
 `
 
 const MyH4 = styled.h1`
@@ -52,7 +59,7 @@ const MyH5 = styled.h1`
 
 const MyP = styled.p`
   font-family: "Merriweather";
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 1.6;
   a {

@@ -7,7 +7,7 @@ import {
   EntypoMailWithCircle
 } from 'react-entypo-icons'
 
-import Separator from '../components/Separator'
+import Separator from '../components/separator'
 
 const IconWrapper = styled.div`
   display: flex;
@@ -20,17 +20,6 @@ const IconWrapper = styled.div`
   padding: 0px 80px;
   @media screen and (max-width: 1000px) {
     padding: 0px 10px;
-  }
-`
-
-const MissionText = styled.p`
-  margin: 2.5rem 0 2.5rem 0;
-  font-size: 48px;
-  font-style: italic;
-  line-height: 1.6;
-  color: #777777;
-  @media screen and (max-width: 1000px) {
-    font-size: 32px;
   }
 `
 
@@ -54,16 +43,10 @@ const InfoText = styled.p`
   }
 `
 
-// <MissionText>Making a career out of overanalyzing everything.</MissionText>
-// <Separator />
-
 const IndexPage = ({ data }) => (
   <div>
     <InfoText>
       Learn more <Link to='/about'>about me.</Link>
-    </InfoText>
-    <InfoText>
-      Check out <Link to='/resume'>my resumé.</Link>
     </InfoText>
     <InfoText>
       Look at <Link to='/projects'>projects I've worked on.</Link>
@@ -123,6 +106,7 @@ export const query = graphql`
           frontmatter {
             title
             date
+            tags
           }
           fields {
             slug
